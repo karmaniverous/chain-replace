@@ -1,7 +1,12 @@
-# NPM Package Template
+# chainReplace
 
-An ES6 NPM package project template featuring mocha/chai test support.
-
-If you want to create a React component in an NPM package, use
-[this template](https://github.com/karmaniverous/template-npm-react-component)
-instead!
+```
+/**
+ * Apply a chain of replacements to a string.
+ *
+ * @function chainReplace
+ * @param {String} - Input string.
+ * @param {Array} - Replacements array of the form [[pattern <string|RegEx>, replacement <string|RegEx>], ...]
+ * @returns {String} String result of chained replacements.
+ */
+```
