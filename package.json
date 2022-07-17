@@ -1,6 +1,6 @@
 {
   "name": "@karmaniverous/chain-replace",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Apply a chain of replacements to a string.",
   "main": "lib/index.js",
   "scripts": {
