@@ -1,8 +1,5 @@
 {
   "name": "@karmaniverous/chain-replace",
-  "bin": {
-    "mycli": "lib/cli/index.js"
-  },
   "version": "0.0.3",
   "publishConfig": {
     "access": "public"
@@ -20,8 +17,6 @@
   "keywords": [],
   "license": "BSD-3-Clause",
   "dependencies": {
-    "commander": "^9.4.1",
-    "dotenv": "^16.0.3",
     "lodash": "^4.17.21"
   },
   "devDependencies": {
