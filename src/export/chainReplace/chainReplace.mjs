@@ -1,13 +1,18 @@
+import _ from 'lodash';
+
 /**
  * Apply a chain of replacements to a string.
  *
  * @function chainReplace
- * @param {String} - Input string.
- * @param {Array} - Replacements array of the form [[pattern <string|RegEx>, replacement <string|RegEx>], ...]
- * @returns {String} String result of chained replacements.
+ *
+ * @param {string} input - Input string.
+ * @param {Array<Array<(string|Object), string>>} [replacements] - Replacements array of [pattern: string|RegExp, replacement: string].
+ *
+ * @returns {string} String result of chained replacements.
  */
 export const chainReplace = (input, replacements) => {
-  if (!replacements) return input;
+  // Return input if inputs null.
+  if (_.isNil(input) || _.isNil(replacements)) return input;
 
   if (!Array.isArray(replacements))
     throw new Error(
@@ -23,5 +28,3 @@ export const chainReplace = (input, replacements) => {
     input
   );
 };
-
-export default chainReplace;

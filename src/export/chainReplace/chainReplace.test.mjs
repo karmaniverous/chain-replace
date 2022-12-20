@@ -5,10 +5,10 @@ import chai from 'chai';
 chai.should();
 
 // subject imports
-import { chainReplace } from '../src/index.mjs';
+import { chainReplace } from './chainReplace.mjs';
 
-describe('chainReplace', async () => {
-  it('string replacements', async () => {
+describe('chainReplace', function () {
+  it('string replacements', async function () {
     const input = 'foo';
     const replacements = [
       ['f', 'b'],
@@ -20,7 +20,7 @@ describe('chainReplace', async () => {
     output.should.equal('bar');
   });
 
-  it('regex replacements', async () => {
+  it('regex replacements', async function () {
     const input = 'foo';
     const replacements = [
       [/f/, 'b'],
