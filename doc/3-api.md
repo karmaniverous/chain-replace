@@ -15,5 +15,5 @@ Apply a chain of replacements to a string.
 | Param | Type | Description |
 | --- | --- | --- |
 | input | <code>string</code> | Input string. |
-| [replacements] | <code>Array.&lt;Array.&lt;(string\|Object), string&gt;&gt;</code> | Replacements array of [pattern: string|RegExp, replacement: string]. |
+| [replacements] | <code>Array.&lt;Array.&lt;(string\|Object), string&gt;&gt;</code> | Replacements array of [pattern: string\|RegExp, replacement: string]. |
 

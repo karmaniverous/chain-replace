@@ -6,7 +6,7 @@ import _ from 'lodash';
  * @function chainReplace
  *
  * @param {string} input - Input string.
- * @param {Array<Array<(string|Object), string>>} [replacements] - Replacements array of [pattern: string|RegExp, replacement: string].
+ * @param {Array<Array<(string|Object), string>>} [replacements] - Replacements array of [pattern: string\|RegExp, replacement: string].
  *
  * @returns {string} String result of chained replacements.
  */
