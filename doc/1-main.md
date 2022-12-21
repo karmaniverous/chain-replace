@@ -1,4 +1,5 @@
 # chain-replace
 
-See [tests](/src/export/chainReplace/chainReplace.test.mjs) for examples of
-usage!
+See
+[tests](https://github.com/karmaniverous/chain-replace/blob/main/lib/chainReplace/chainReplace.test.js)
+for examples of usage!
